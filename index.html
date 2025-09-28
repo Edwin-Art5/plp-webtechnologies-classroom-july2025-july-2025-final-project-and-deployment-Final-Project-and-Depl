@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royalty Studioz - Christian Short Films</title>
+    <meta name="description" content="Royalty Studioz creates inspiring Christian short films that touch hearts and transform lives through faith-based storytelling.">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Royalty Studioz - Christian Short Films">
+    <meta property="og:description" content="Royalty Studioz creates inspiring Christian short films that touch hearts and transform lives through faith-based storytelling.">
+    <meta property="og:image" content="./images/hero.jpg">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <header class="header">
+        <nav class="nav container" aria-label="Main navigation">
+            <div class="nav__brand">
+                <img src="./images/logo.png" alt="Royalty Studioz" class="nav__logo">
+                <span class="nav__title">Royalty Studioz</span>
+            </div>
+            
+            <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav__menu" id="nav-menu">
+                <li><a href="index.html" class="nav__link nav__link--active" aria-current="page">Home</a></li>
+                <li><a href="about.html" class="nav__link">About</a></li>
+                <li><a href="films.html" class="nav__link">Films</a></li>
+                <li><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero__content">
+                <h1 class="hero__title fade-in">Stories That Inspire. Faith That Transforms.</h1>
+                <p class="hero__subtitle fade-in">Creating powerful Christian short films that touch hearts and change lives through the timeless message of hope.</p>
+                <a href="films.html" class="btn btn--primary fade-in">Explore Our Films</a>
+            </div>
+            <div class="hero__image">
+                <img src="./images/hero.jpg" alt="Film production scene with crew and equipment" class="fade-in">
+            </div>
+        </section>
+
+        <!-- Mission Section -->
+        <section class="mission container section fade-in">
+            <div class="mission__content">
+                <h2 class="section__title">Our Mission</h2>
+                <p class="section__text">
+                    At Royalty Studioz, we believe every story has the power to transform lives. We create compelling Christian short films that showcase God's love, grace, and redemption in authentic, relatable ways. Our mission is to inspire hope, strengthen faith, and build community through the art of cinematic storytelling.
+                </p>
+            </div>
+        </section>
+
+        <!-- Featured Film Section -->
+        <section class="featured container section">
+            <h2 class="section__title fade-in">Featured Film</h2>
+            <article class="film-card film-card--featured fade-in">
+                <div class="film-card__image">
+                    <img src="./images/the-hope-poster.jpg" alt="The Hope movie poster" class="film-card__poster">
+                </div>
+                <div class="film-card__content">
+                    <h3 class="film-card__title">The Hope</h3>
+                    <p class="film-card__meta">Coming 2025</p>
+                    <p class="film-card__tagline">When darkness surrounds us, hope lights the way home.</p>
+                    <a href="films.html" class="btn btn--secondary">Learn More</a>
+                </div>
+            </article>
+        </section>
+
+        <!-- Future Projects Teaser -->
+        <section class="future-projects container section">
+            <h2 class="section__title fade-in">Future Projects</h2>
+            <p class="section__text fade-in">
+                We're developing inspiring new stories that will challenge hearts and minds. Stay tuned for announcements about upcoming productions that explore themes of forgiveness, redemption, and God's unfailing love.
+            </p>
+            <a href="films.html" class="btn btn--outline fade-in">View All Projects</a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content container">
+            <div class="footer__info">
+                <h3 class="footer__title">Royalty Studioz</h3>
+                <p class="footer__text">Creating inspiring Christian cinema that transforms hearts and minds.</p>
+            </div>
+            <div class="footer__links">
+                <a href="about.html">About</a>
+                <a href="films.html">Films</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2024 Royalty Studioz. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JSON-LD Schema for featured film -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Movie",
+        "name": "The Hope",
+        "description": "When darkness surrounds us, hope lights the way home.",
+        "productionCompany": {
+            "@type": "Organization",
+            "name": "Royalty Studioz"
+        },
+        "datePublished": "2025",
+        "genre": "Christian Drama"
+    }
+    </script>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

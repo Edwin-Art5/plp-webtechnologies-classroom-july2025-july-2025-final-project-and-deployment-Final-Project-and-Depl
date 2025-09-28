@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Films - Royalty Studioz</title>
+    <meta name="description" content="Explore Royalty Studioz's collection of inspiring Christian short films, including our upcoming feature 'The Hope' and other faith-based cinematic projects.">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Our Films - Royalty Studioz">
+    <meta property="og:description" content="Explore Royalty Studioz's collection of inspiring Christian short films, including our upcoming feature 'The Hope'.">
+    <meta property="og:image" content="./images/the-hope-poster.jpg">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#main" class="skip-link">Skip to main content</a>
+    
+    <header class="header">
+        <nav class="nav container" aria-label="Main navigation">
+            <div class="nav__brand">
+                <img src="./images/logo.png" alt="Royalty Studioz" class="nav__logo">
+                <span class="nav__title">Royalty Studioz</span>
+            </div>
+            
+            <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation menu">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+            
+            <ul class="nav__menu" id="nav-menu">
+                <li><a href="index.html" class="nav__link">Home</a></li>
+                <li><a href="about.html" class="nav__link">About</a></li>
+                <li><a href="films.html" class="nav__link nav__link--active" aria-current="page">Films</a></li>
+                <li><a href="contact.html" class="nav__link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1 class="page-header__title fade-in">Our Films</h1>
+                <p class="page-header__subtitle fade-in">Stories of faith, hope, and redemption</p>
+            </div>
+        </section>
+
+        <!-- Featured Film -->
+        <section class="featured-film container section">
+            <article class="film-featured fade-in">
+                <div class="film-featured__image">
+                    <img src="./images/the-hope-poster.jpg" alt="The Hope movie poster featuring a lone figure silhouetted against a golden sunrise" class="film-featured__poster">
+                </div>
+                <div class="film-featured__content">
+                    <h2 class="film-featured__title">The Hope</h2>
+                    <div class="film-featured__meta">
+                        <span class="film-meta__item">Coming 2025</span>
+                        <span class="film-meta__item">Short Film</span>
+                        <span class="film-meta__item">Drama</span>
+                    </div>
+                    <p class="film-featured__synopsis">
+                        When Sarah's world crumbles after losing her job and facing eviction, she finds herself questioning everything she once believed. But through an unexpected encounter with a homeless veteran who radiates peace despite his circumstances, she discovers that true hope isn't found in our situations, but in something far greater. A powerful story about finding light in the darkest moments and learning that God's love never fails, even when everything else does.
+                    </p>
+                    <div class="film-featured__actions">
+                        <button class="btn btn--primary" disabled>Coming Soon</button>
+                        <a href="contact.html" class="btn btn--outline">Get Updates</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Film Gallery -->
+        <section class="film-gallery container section">
+            <h2 class="section__title fade-in">Upcoming Projects</h2>
+            <div class="films__grid">
+                <article class="film-card fade-in">
+                    <div class="film-card__image">
+                        <img src="./images/placeholder1-poster.jpg" alt="Forgiven movie poster" class="film-card__poster">
+                    </div>
+                    <div class="film-card__content">
+                        <h3 class="film-card__title">Forgiven</h3>
+                        <div class="film-card__meta">
+                            <span class="film-meta__item">In Development</span>
+                            <span class="film-meta__item">15 min</span>
+                        </div>
+                        <p class="film-card__synopsis">
+                            A bitter father must confront his own unforgiveness when his estranged son returns home seeking reconciliation. Through this difficult journey, both men discover that grace has the power to heal even the deepest wounds.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="film-card fade-in">
+                    <div class="film-card__image">
+                        <img src="./images/placeholder2-poster.jpg" alt="The Prodigal's Return movie poster" class="film-card__poster">
+                    </div>
+                    <div class="film-card__content">
+                        <h3 class="film-card__title">The Prodigal's Return</h3>
+                        <div class="film-card__meta">
+                            <span class="film-meta__item">Pre-Production</span>
+                            <span class="film-meta__item">Short Film</span>
+                        </div>
+                        <p class="film-card__synopsis">
+                            A modern retelling of the parable of the prodigal son, following Marcus as he returns home after years of poor choices. This contemporary adaptation explores themes of repentance, unconditional love, and second chances.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta container section">
+            <div class="cta__content fade-in">
+                <h2 class="cta__title">Stay Connected</h2>
+                <p class="cta__text">
+                    Be the first to know about our latest releases, behind-the-scenes content, and upcoming projects. Join our community of faith-based film enthusiasts.
+                </p>
+                <a href="contact.html" class="btn btn--primary">Get Updates</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content container">
+            <div class="footer__info">
+                <h3 class="footer__title">Royalty Studioz</h3>
+                <p class="footer__text">Creating inspiring Christian cinema that transforms hearts and minds.</p>
+            </div>
+            <div class="footer__links">
+                <a href="about.html">About</a>
+                <a href="films.html">Films</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2024 Royalty Studioz. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
