@@ -1,90 +1,62 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+🎬 Royalty Studioz Website
+📖 Project Purpose
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+This project is a multi-page website for Royalty Studioz, a Christian short-film studio.
+The goal is to showcase the company’s mission, highlight its first short film, and provide visitors with an easy way to connect with the studio.
+It was built as part of my assignment to demonstrate HTML5, CSS, and JavaScript skills, responsive design, and deployment to a live hosting service.
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+📂 Project Structure
+royalty-studioz/
+│
+├── index.html        # Home page
+├── about.html        # About page
+├── films.html        # Films showcase
+├── gallery.html      # Gallery page
+├── contact.html      # Contact page
+│
+├── css/
+│   └── style.css     # Stylesheet
+│
+├── js/
+│   └── main.js       # Interactivity (menu, etc.)
+│
+└── assets/
+    ├── images/       # Logos, posters, photos
+    └── videos/       # Showreel / film trailers
 
----
+🌐 Live URL
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+👉 https://royalty-studioz.netlify.app/
 
-Before you write any code, take time to plan:
 
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
+✅ Features
 
-**Goal:** Show intentional structure and user journey across the site.
+Clean golden theme (gold, white, black) matching studio branding.
 
----
+Five-page structure: Home, About, Films, Gallery, Contact.
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+Responsive layout (works on mobile & desktop).
 
-Using your plan, begin building:
+Accessible design (semantic HTML, alt text, contrast-friendly).
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
+JavaScript interactivity: mobile nav toggle.
 
-Each page should:
+Contact form powered by Netlify.
 
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
+🛠️ Tools & Technologies
 
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
+HTML5, CSS3, JavaScript (vanilla).
 
----
+GitHub for version control.
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+Netlify for hosting and deployment.
 
-Before deployment, refactor your project to follow production-friendly practices:
+🚀 Deployment
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+Drag-and-drop project folder into Netlify (manual deploy).
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+Verify all links, scripts, and forms work.
 
----
+Confirm mobile and desktop responsiveness.
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
-
-Once your project is complete, choose a method to **host your site online**.
-
-You can use:
-
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
-
-Deploy your project and confirm that:
-
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
-
-**Goal:** Publish your work online and make it accessible to the world.
-
----
-
-## Deliverables
-
-1. A GitHub repository containing:
-
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
-
----
-
-## Outcome
-
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+Share the live URL above.
