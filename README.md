@@ -51,12 +51,3 @@ GitHub for version control.
 
 Netlify for hosting and deployment.
 
-🚀 Deployment
-
-Drag-and-drop project folder into Netlify (manual deploy).
-
-Verify all links, scripts, and forms work.
-
-Confirm mobile and desktop responsiveness.
-
-Share the live URL above.
